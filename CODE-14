@@ -1,0 +1,16 @@
+C Program to Check CGPA from One Subject Grade Point:
+
+#include <stdio.h>
+
+int main() {
+    float marks, cgpa;
+
+    printf("Enter marks (out of 100): ");
+    scanf("%f", &marks);
+
+    cgpa = marks / 4;
+
+    printf("Your CGPA is: %.2f\n", cgpa);
+
+    return 0;
+}
