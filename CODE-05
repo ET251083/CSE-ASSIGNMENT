@@ -1,3 +1,6 @@
+AREA OF TRINGLE:
+
+
 int main() {
     float base, height, area;
 
