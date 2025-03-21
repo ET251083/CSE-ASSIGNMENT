@@ -1,3 +1,5 @@
+Arithmetic Operators:
+
 #include <stdio.h>
 
 int main() {
