@@ -1,3 +1,5 @@
+THE AREA:
+
 #include <stdio.h>
 #define PI 3.1416
 
@@ -10,6 +12,27 @@ int main() {
     area = PI * radius * radius;
 
     printf("Area of the circle = %.2f\n", area);
+
+    return 0;
+}
+
+THE AREA OF CIRCLE:
+
+
+#include <stdio.h>
+
+#define PI 3.1416
+
+int main() {
+    float area, radius;
+
+    printf("Enter the area of the circle: ");
+    
+    scanf("%f", &area);
+
+    radius = sqrt(area / PI);
+
+    printf("Radius of the circle = %.2f\n", radius);
 
     return 0;
 }
